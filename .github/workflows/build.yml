@@ -15,7 +15,7 @@ jobs:
           distribution: temurin
           java-version: 21
 
-            - name: Install Gradle 8.14.3
+      - name: Install Gradle 8.14.3
         run: |
           curl -sSL -o gradle.zip https://services.gradle.org/distributions/gradle-8.14.3-bin.zip
           unzip -q gradle.zip -d "$HOME/gradle"
