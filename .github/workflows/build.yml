@@ -15,11 +15,11 @@ jobs:
           distribution: temurin
           java-version: 21
 
-      - name: Install Gradle 8.10
+            - name: Install Gradle 8.14.3
         run: |
-          curl -sSL -o gradle.zip https://services.gradle.org/distributions/gradle-8.10-bin.zip
+          curl -sSL -o gradle.zip https://services.gradle.org/distributions/gradle-8.14.3-bin.zip
           unzip -q gradle.zip -d "$HOME/gradle"
-          echo "$HOME/gradle/gradle-8.10/bin" >> "$GITHUB_PATH"
+          echo "$HOME/gradle/gradle-8.14.3/bin" >> "$GITHUB_PATH"
 
       - name: Build mod
         run: gradle build
