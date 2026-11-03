@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.example.butterflyknife.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "minVersion": "0.8",
+  "environment": "client",
+  "client": [
+    "ButterflyKnifeHeldItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

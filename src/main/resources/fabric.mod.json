@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "butterfly_knife",
+  "version": "${version}",
+  "name": "Butterfly Knife Spin",
+  "description": "Press G to spin whatever you're holding, butterfly-knife style. Client-side only.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.butterflyknife.ButterflyKnifeClient"
+    ]
+  },
+  "mixins": [
+    "butterfly-knife.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17.2",
+    "minecraft": "1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
